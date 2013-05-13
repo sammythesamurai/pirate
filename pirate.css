@@ -119,6 +119,41 @@ p {
 	width: 116px;
 }
 
+article .group {
+	float: right;
+}
+
+table {
+	border-radius: 5px;
+	width: 200px;
+}
+
+th, td {
+	padding: 4px;
+	font-size: 24px;
+	font-family: 'Life Savers', cursive;
+	src: url ('http://fonts.googleapis.com/css?family=Life+Savers:700');
+}
+
+th {
+	border-bottom: 2px solid #800080;
+	border-top: 1px solid #DDA0DD;
+	text-align: left;
+}
+
+tr {
+	background-color: #91219E;
+	color: white;
+	font-family: 'Life Savers', cursive;
+	src: url ('http://fonts.googleapis.com/css?family=Life+Savers:700');
+}
+
+tr:hover {
+	color: #DDA0DD;
+}
+
+
+
 
 .group:before,
 .group:after {
